@@ -1,12 +1,11 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
   <title>Nuevo Blog de Naturaleza</title>
   <style>
-
-
     body {
       margin: 0;
       background-color: #d4edda;
@@ -91,17 +90,21 @@
       margin-bottom: 20px;
     }
 
-    .imagenes img {
-      width: 150px;
-      height: 150px;
-      object-fit: cover;
-      border-radius: 10px;
-      transition: transform 0.3s ease;
-    }
+ .imagenes img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 10px;
+  transition: transform 0.3s ease; box-shadow 0.3s ease;
+}
 
-    .imagenes img:hover {
-      transform: scale(1.05);
-    }
+
+ .imagenes img:hover {
+  transform: scale(1.5);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  border: 2px solid #2a7b4f;
+}
+
 
     footer {
       background-color: #2a7b4f;
@@ -110,12 +113,14 @@
       text-align: center;
     }
 
-    a, strong {
+    a,
+    strong {
       color: #2a7b4f;
       transition: color 0.3s ease;
     }
 
-    a:hover, strong:hover {
+    a:hover,
+    strong:hover {
       color: #e0ffe0;
     }
 
@@ -152,24 +157,14 @@
       .seccion {
         padding: 20px;
       }
-  
-  </footer>
 
-  <!-- Botón flotante -->
-  <button onclick="window.scrollTo({ top: 0, behavior: 'smooth' });"
-          style="position: fixed; bottom: 20px; right: 20px; z-index: 1000; background-color: #2a7b4f; color: white; border: none; border-radius: 50%; width: 50px; height: 50px; font-size: 24px; cursor: pointer; box-shadow: 0 4px 8px rgba(0,0,0,0.3);"
-          aria-label="Volver al inicio">
-    ⬆️
-  </button>
-</body>
-</html>
-
-</button>
-
+      </footer>< !-- Botón flotante --><button onclick="window.scrollTo({ top: 0, behavior: 'smooth' });"
+      style="position: fixed; bottom: 20px; right: 20px; z-index: 1000; background-color: #2a7b4f; color: white; border: none; border-radius: 50%; width: 50px; height: 50px; font-size: 24px; cursor: pointer; box-shadow: 0 4px 8px rgba(0,0,0,0.3);"
+      aria-label="Volver al inicio">⬆️ </button></body></html></button>
     }
-
   </style>
 </head>
+
 <body>
 
   <header>
@@ -194,10 +189,11 @@
           <img src="naturaleza 4.jpeg" alt="Inicio 2">
           <img src="naturaleza5.jpeg" alt="Inicio 3">
           <img src="naturaleza6.jpeg" alt="Inicio 4">
-          <img src="naturaleza7.jpeg" alt="Inicio 5">
+          <img src="noruega1.jpg" alt="Inicio 5">
         </div>
         <p>
-          La naturaleza es un vasto y diverso ecosistema que alberga innumerables especies de plantas, animales y microorganismos. Cada elemento en la naturaleza está interconectado, creando un delicado equilibrio que debemos preservar. Desde las vastas selvas tropicales hasta los frágiles arrecifes de coral, cada ecosistema es esencial para el mantenimiento del planeta. Conectarse con la naturaleza no solo nos permite disfrutar de su belleza, sino que también nos enseña la importancia de respetarla y cuidarla para las futuras generaciones. Además, la naturaleza actúa como un pulmón vital que filtra el aire, proporciona recursos esenciales y regula el clima global.
+          La naturaleza es un vasto y diverso ecosistema que alberga innumerables especies de plantas, animales y
+          microorganismos. 
         </p>
       </div>
     </section>
@@ -206,14 +202,15 @@
       <div class="contenido">
         <h2>Conociendo más sobre la Naturaleza</h2>
         <div class="imagenes">
-          <img src="naturaleza16.jpeg" alt="Blog 1">
+          <img src="naturaleza16.jpg" alt="Blog 1">
           <img src="naturaleza9.jpeg" alt="Blog 2">
-          <img src="naturaleza10.jpg" alt="Blog 3">
+          <img src="noruega2.jpg" alt="Blog 3">
           <img src="imagen 1.jpg" alt="Blog 4">
           <img src="naturaleza12.jpg" alt="Blog 5">
         </div>
         <p>
-          En esta sección del blog, profundizamos en temas sobre los biomas del mundo, la biodiversidad y cómo la naturaleza impacta en nuestra vida diaria. Exploraremos historias inspiradoras de conservación, investigaciones científicas sobre el cambio climático y consejos prácticos para vivir de manera más sostenible. Cada artículo está diseñado para fomentar una conexión más profunda con nuestro entorno natural y destacar la necesidad urgente de protegerlo. Además, abordaremos cómo la pérdida de biodiversidad afecta directamente a los ecosistemas y a la salud humana, generando un efecto dominó que debemos frenar a través de acciones responsables y conscientes.
+          En esta sección del blog, profundizamos en temas sobre los biomas del mundo, la biodiversidad y cómo la
+          naturaleza impacta en nuestra vida diaria.
         </p>
       </div>
     </section>
@@ -223,8 +220,8 @@
         <h2>Un Recorrido por la Naturaleza</h2>
         <div class="imagenes">
           <img src="naturaleza13.jpg" alt="Galería 1">
-          <img src="naturaleza14..jpg" alt="Galería 2">
-          <img src="naturaleza15.jpeg" alt="Galería 3">
+          <img src="naturaleza14.jpg" alt="Galería 2">
+          <img src="noruega3.jpg" alt="Galería 3">
           <img src="naturaleza16.jpg" alt="Galería 4">
           <img src="fondo de paisajes.jpg" alt="Galería 5">
         </div>
@@ -235,29 +232,27 @@
       <div class="contenido">
         <h2>Contactos</h2>
         <p>
-          ¿Tienes alguna consulta o sugerencia? visita nuestro 
+          ¿Tienes alguna consulta o sugerencia? visita nuestro
           <a href="https://github.com/chirivt" target="_blank">GitHub</a>.
         </p>
       </div>
     </section>
 
   </main>
-<!-- Botón Volver al Inicio -->
-<div style="text-align: center; padding: 20px;">
-  <button onclick="window.scrollTo({ top: 0, behavior: 'smooth' });"
-          style="padding: 12px 24px; background-color: #2a7b4f; color: white; border: none; border-radius: 8px; font-size: 16px; cursor: pointer;"
-          aria-label="Volver al inicio">
-    ⬆️ Volver al Inicio
-  </button>
-</div>
-
-<footer>
-  <p>© 2025 Conectando con la Naturaleza - Todos los derechos reservados Josue Chirivi C.A</p>
-</footer>
+  <!-- Botón Volver al Inicio -->
+  <div style="text-align: center; padding: 20px;">
+    <button onclick="window.scrollTo({ top: 0, behavior: 'smooth' });"
+      style="padding: 12px 24px; background-color: #2a7b4f; color: white; border: none; border-radius: 8px; font-size: 16px; cursor: pointer;"
+      aria-label="Volver al inicio">
+      ⬆️ Volver al Inicio
+    </button>
+  </div>
 
   <footer>
     <p>© 2025 Conectando con la Naturaleza - Todos los derechos reservados Josue Chirivi C.A</p>
   </footer>
 
+
 </body>
+
 </html>
